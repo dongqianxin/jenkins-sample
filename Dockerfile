@@ -1,4 +1,4 @@
-FROM golang:1.10.4-alpine
+FROM registry.cn-hangzhou.aliyuncs.com/dongqianxin/golang:1.10.4-alpine
 
 ADD . /go/src/app
 
